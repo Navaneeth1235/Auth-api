@@ -1,8 +1,31 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+```bash
+npm install
+# For jwt secret key
+cp .env.example .env.local
 
-First, run the development server:
+#installed tailwindcss and postcss
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+jsonwebtoken - For generating and verifying JWT tokens.
+bash
+npm install jsonwebtoken
+@types/jsonwebtoken - TypeScript support for JWT.
+bash
+npm install --save-dev @types/jsonwebtoken
+bcryptjs - For password hashing to securely store user passwords.
+bash
+npm install bcryptjs
+@types/bcryptjs - TypeScript support for bcrypt.
+bash
+npm install --save-dev @types/bcryptjs
+
+
+
+Run the development server:
 
 ```bash
 npm run dev
