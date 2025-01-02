@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Cache and logs
+.next/
+out/
+dist/
+*.log
+
+# Test Coverage
+coverage/
+
+# IDE and editor settings
+.vscode/
+.idea/
+.DS_Store
